@@ -21,6 +21,16 @@
   * [Data Fabric](data-systems-and-architecture/types-of-architecture/data-fabric.md)
   * [Data Mesh](data-systems-and-architecture/types-of-architecture/data-mesh.md)
 
+## Programming languages for data engineering
+
+* [Common choices](programming-languages-for-data-engineering/common-choices/README.md)
+  * [Python](programming-languages-for-data-engineering/common-choices/python.md)
+  * [SQL](programming-languages-for-data-engineering/common-choices/sql.md)
+  * [Spark](programming-languages-for-data-engineering/common-choices/spark.md)
+  * [Scala](programming-languages-for-data-engineering/common-choices/scala.md)
+  * [R](programming-languages-for-data-engineering/common-choices/r.md)
+  * [Julia](programming-languages-for-data-engineering/common-choices/julia.md)
+
 ## Data Collection and Storage
 
 * [Data Sourcing](data-collection-and-storage/data-sourcing.md)
@@ -28,7 +38,14 @@
 
 ## Data Processing
 
-* [Batch vs. Stream Processing](data-processing/batch-vs.-stream-processing.md)
+* [Batch](data-processing/batch/README.md)
+  * [Hadoop MapReduce](data-processing/batch/hadoop-mapreduce.md)
+  * [Apache Hive](data-processing/batch/apache-hive.md)
+  * [Apache Spark](data-processing/batch/apache-spark.md)
+* [Streaming](data-processing/streaming/README.md)
+  * [Apache Kafka Streams](data-processing/streaming/apache-kafka-streams.md)
+  * [Apache Flink](data-processing/streaming/apache-flink.md)
+  * [Apache Storm](data-processing/streaming/apache-storm.md)
 * [Data Pipelines](data-processing/data-pipelines.md)
 
 ## Data Modeling
@@ -58,7 +75,8 @@
 ## Big Data Technologies
 
 * [Introduction to Big Data](big-data-technologies/introduction-to-big-data.md)
-* [Popular Big Data Tools](big-data-technologies/popular-big-data-tools.md)
+* [Popular Big Data Tools](big-data-technologies/popular-big-data-tools/README.md)
+  * [Hadoop](big-data-technologies/popular-big-data-tools/hadoop.md)
 
 ## Cloud Data Solutions
 
