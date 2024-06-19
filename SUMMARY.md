@@ -10,16 +10,26 @@
 
 ## Data Systems and Architecture
 
-* [Basics of Data Systems](data-systems-and-architecture/basics-of-data-systems.md)
+* [Basics of Data Systems](data-systems-and-architecture/basics-of-data-systems/README.md)
+  * [ACID](data-systems-and-architecture/basics-of-data-systems/acid.md)
+  * [BASE](data-systems-and-architecture/basics-of-data-systems/base.md)
+  * [CAP Theorem](data-systems-and-architecture/basics-of-data-systems/cap-theorem/README.md)
+    * [Consistent and Available (CA)](data-systems-and-architecture/basics-of-data-systems/cap-theorem/consistent-and-available-ca.md)
+    * [Availability and Partition tolerant (AP)](data-systems-and-architecture/basics-of-data-systems/cap-theorem/availability-and-partition-tolerant-ap.md)
+    * [Consistent and Partition tolerant (CP)](data-systems-and-architecture/basics-of-data-systems/cap-theorem/consistent-and-partition-tolerant-cp.md)
 * [Legacy Data Architecture](data-systems-and-architecture/legacy-data-architecture.md)
 * [Modern Data Architecture](data-systems-and-architecture/modern-data-architecture.md)
-* [Types of Architecture](data-systems-and-architecture/types-of-architecture/README.md)
-  * [Data Warehouse](data-systems-and-architecture/types-of-architecture/data-warehouse.md)
+* [Data Architectures](data-systems-and-architecture/data-architectures/README.md)
+  * [Lambda](data-systems-and-architecture/data-architectures/lambda.md)
+  * [Kappa](data-systems-and-architecture/data-architectures/kappa.md)
+  * [Medallion](data-systems-and-architecture/data-architectures/medallion.md)
+  * [Data Fabric](data-systems-and-architecture/data-architectures/data-fabric.md)
+  * [Data Mesh](data-systems-and-architecture/data-architectures/data-mesh.md)
+* [Data Management](data-systems-and-architecture/types-of-architecture/README.md)
   * [Data Lake](data-systems-and-architecture/types-of-architecture/data-lake.md)
+  * [Data Warehouse](data-systems-and-architecture/types-of-architecture/data-warehouse.md)
   * [Data Lakehouse](data-systems-and-architecture/types-of-architecture/data-lakehouse.md)
   * [Data Mart](data-systems-and-architecture/types-of-architecture/data-mart.md)
-  * [Data Fabric](data-systems-and-architecture/types-of-architecture/data-fabric.md)
-  * [Data Mesh](data-systems-and-architecture/types-of-architecture/data-mesh.md)
 
 ## Programming languages for data engineering
 
@@ -33,8 +43,11 @@
 
 ## Data Collection and Storage
 
-* [Data Sourcing](data-collection-and-storage/data-sourcing.md)
-* [Storage Solutions](data-collection-and-storage/storage-solutions.md)
+* [Unstructured](data-collection-and-storage/unstructured.md)
+* [Structured](data-collection-and-storage/structured.md)
+* [Data Sourcing](data-collection-and-storage/data-sourcing/README.md)
+  * [Push](data-collection-and-storage/data-sourcing/push.md)
+  * [Pull](data-collection-and-storage/data-sourcing/pull.md)
 
 ## Data Processing
 
@@ -47,6 +60,8 @@
   * [Apache Flink](data-processing/streaming/apache-flink.md)
   * [Apache Storm](data-processing/streaming/apache-storm.md)
 * [Data Pipelines](data-processing/data-pipelines.md)
+* [Compute](data-processing/compute.md)
+* [Notebooks](data-processing/notebooks.md)
 
 ## Data Modeling
 
@@ -62,15 +77,48 @@
     * [Dimensional](data-modeling/types-of-data-modeling/relational/dimensional.md)
 * [Data Modeling Process](data-modeling/data-modeling-process.md)
 
-## OLAP and OLTP
+## Data Quality
 
-* [Online Analytical Processing (OLAP)](olap-and-oltp/online-analytical-processing-olap.md)
-* [Online Transactional Processing (OLTP)](olap-and-oltp/online-transactional-processing-oltp.md)
+* [101](data-quality/101.md)
+
+## Data Operations
+
+* [DataOps](data-operations/dataops.md)
+* [Clustering](data-operations/clustering.md)
+* [Partitioning](data-operations/partitioning.md)
+* [Pruning](data-operations/pruning.md)
+* [Sharding](data-operations/sharding.md)
+* [CI/CD](data-operations/ci-cd.md)
+
+## Database Systems
+
+* [Hierarchical](database-systems/hierarchical.md)
+* [Relational](database-systems/relational.md)
+* [Non-relational (noSQL)](database-systems/non-relational-nosql.md)
+* [Document](database-systems/document.md)
+* [Key-value](database-systems/key-value.md)
+* [Column-oriented](database-systems/column-oriented.md)
+* [Graph](database-systems/graph.md)
+* [Vector](database-systems/vector.md)
+* [Online Analytical Processing (OLAP)](database-systems/online-analytical-processing-olap.md)
+* [Online Transactional Processing (OLTP)](database-systems/online-transactional-processing-oltp.md)
 
 ## Data Analysis and Reporting
 
-* [Tools for Data Analysis](data-analysis-and-reporting/tools-for-data-analysis.md)
+* [CRUD](data-analysis-and-reporting/crud.md)
+* [Tools for Data Analysis](data-analysis-and-reporting/tools-for-data-analysis/README.md)
+  * [SQL](data-analysis-and-reporting/tools-for-data-analysis/sql.md)
+  * [Common Functions](data-analysis-and-reporting/tools-for-data-analysis/common-functions/README.md)
+    * [Coalesce](data-analysis-and-reporting/tools-for-data-analysis/common-functions/coalesce.md)
+    * [Repartition](data-analysis-and-reporting/tools-for-data-analysis/common-functions/repartition.md)
 * [Building Reports](data-analysis-and-reporting/building-reports.md)
+
+## Data Formats
+
+* [Open source](data-formats/open-source/README.md)
+  * [Delta Lake](data-formats/open-source/delta-lake.md)
+  * [Apache Iceberg](data-formats/open-source/apache-iceberg.md)
+* [Closed source](data-formats/closed-source.md)
 
 ## Big Data Technologies
 
@@ -87,6 +135,7 @@
 
 * [Security Best Practices](data-security-and-compliance/security-best-practices.md)
 * [Regulations and Compliance](data-security-and-compliance/regulations-and-compliance.md)
+* [Data Goverance](data-security-and-compliance/data-goverance.md)
 
 ## Case Studies and Real-world Applications
 
